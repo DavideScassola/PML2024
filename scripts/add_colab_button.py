@@ -2,7 +2,7 @@ import os
 import nbformat as nbf
 
 # Define the root directory containing the notebooks
-root_dir = 'Notebooks'
+root_dir = '.'
 
 # Iterate over all subdirectories in the root directory
 for dirpath, dirnames, filenames in os.walk(root_dir):
